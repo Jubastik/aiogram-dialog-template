@@ -72,10 +72,10 @@ async def main():
     dp.errors.register(error_handler)
 
     # Регистрация роутов
+    dp.include_router(dlg_router)
     registry = DialogRegistry(dp)
     register_dialogs(registry)
     await setup_bot_commands(bot)
-    dp.include_router(dlg_router)
 
     await dp.start_polling(bot, on_shutdown=on_shutdown, on_startup=on_startup)
 

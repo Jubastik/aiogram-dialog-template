@@ -1,7 +1,7 @@
 from aiogram_dialog import DialogManager
 
 from app.db.db_user.user_func import User
-from app.dialogs.гniversal_methods import get_tg_id_from_manager
+from app.dialogs.universal_methods import get_tg_id_from_manager
 
 
 async def get_name(dialog_manager: DialogManager, **kwargs):
