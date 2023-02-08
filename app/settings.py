@@ -19,7 +19,7 @@ class Settings(BaseSettings):
     DB_HOST: str = "localhost"
     DB_PORT: int = 3306
 
-    DB_SQLITE_DIR: str = "db/bot.db"
+    DB_SQLITE_DIR: str = "app/db/bot.db"
 
 
 @lru_cache()
