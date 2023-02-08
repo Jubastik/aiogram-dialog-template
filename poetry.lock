@@ -232,18 +232,6 @@ files = [
 ]
 
 [[package]]
-name = "atlastk"
-version = "0.13.2"
-description = "The quick and easy way to add versatile graphical interfaces and networking capabilities to your Python programs. Works even on your Android smartphone or tablet."
-category = "main"
-optional = false
-python-versions = "*"
-files = [
-    {file = "atlastk-0.13.2-py3-none-any.whl", hash = "sha256:387c3b644a8145e6efd1cf9ff7add9226743571420ce6218cae34ca62ed9c833"},
-    {file = "atlastk-0.13.2.tar.gz", hash = "sha256:1e805658930f2546fbedddd406ff27028f772b2ceb104887cc54ba1ab34ffad8"},
-]
-
-[[package]]
 name = "attrs"
 version = "22.2.0"
 description = "Classes Without Boilerplate"
@@ -834,21 +822,6 @@ files = [
 ]
 
 [[package]]
-name = "tortoise"
-version = "0.1.1"
-description = "Turtle graphics on the web."
-category = "main"
-optional = false
-python-versions = "*"
-files = [
-    {file = "tortoise-0.1.1-py3-none-any.whl", hash = "sha256:bcb58a56d6796cad0db330104450df2caf2ea9e98d844bb2906274bd15c12804"},
-    {file = "tortoise-0.1.1.tar.gz", hash = "sha256:a4ebd69b152d266174b3b0f2a22e3fb8995101eb749d3114813a98f405ab10bb"},
-]
-
-[package.dependencies]
-atlastk = "*"
-
-[[package]]
 name = "tortoise-orm"
 version = "0.19.3"
 description = "Easy async ORM for python, built with relations in mind"
@@ -977,4 +950,4 @@ multidict = ">=4.0"
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.10"
-content-hash = "e6125e1ced1a90d6863bc21a2ae1823056786101e58560f7063b7c24d76f3307"
+content-hash = "07d59ba42cd38956aac41278ec65714a166f5fc24cb4dfa0758ada30aed852fc"
