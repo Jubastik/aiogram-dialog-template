@@ -10,7 +10,7 @@ python = "^3.10"
 aiogram = { version = "^3.0.0b6", allow-prereleases = true }
 aiogram-dialog = { version = "^2.0.0b16", allow-prereleases = true }
 coloredlogs = "^15.0.1"
-redis = "^4.5.3"
+redis = "^4.5.4"
 pydentic = "^0.0.1.dev3"
 tortoise-orm = "^0.19.3"
 aerich = "^0.7.1"
